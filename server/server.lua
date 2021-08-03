@@ -1,4 +1,4 @@
-RegisterServerEvent('srp:help')
-AddEventHandler('srp:help', function()
+RegisterServerEvent('srp:rules')
+AddEventHandler('srp:rules', function()
 	TriggerClientEvent(srp:sendMessage, -1)
 end)
